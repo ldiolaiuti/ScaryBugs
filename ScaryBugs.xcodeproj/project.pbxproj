@@ -13,8 +13,24 @@
 		227772DC1A8E6EEC00C4D1F6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 227772DB1A8E6EEC00C4D1F6 /* DetailViewController.m */; };
 		227772DF1A8E6EEC00C4D1F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227772DD1A8E6EEC00C4D1F6 /* Main.storyboard */; };
 		227772E11A8E6EEC00C4D1F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227772E01A8E6EEC00C4D1F6 /* Images.xcassets */; };
-		227772E41A8E6EEC00C4D1F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227772E21A8E6EEC00C4D1F6 /* LaunchScreen.xib */; };
 		227772F01A8E6EEC00C4D1F6 /* ScaryBugsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 227772EF1A8E6EEC00C4D1F6 /* ScaryBugsTests.m */; };
+		227772FB1A8E72EE00C4D1F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227772FA1A8E72EE00C4D1F6 /* LaunchScreen.xib */; };
+		227772FF1A8E736A00C4D1F6 /* ScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = 227772FE1A8E736A00C4D1F6 /* ScaryBugData.m */; };
+		227773021A8E82A000C4D1F6 /* ScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 227773011A8E82A000C4D1F6 /* ScaryBugDoc.m */; };
+		2277730C1A8F833000C4D1F6 /* attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = 227773031A8F833000C4D1F6 /* attribution.txt */; };
+		2277730D1A8F833000C4D1F6 /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227773041A8F833000C4D1F6 /* centipede.jpg */; };
+		2277730E1A8F833000C4D1F6 /* centipedeThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227773051A8F833000C4D1F6 /* centipedeThumb.jpg */; };
+		2277730F1A8F833000C4D1F6 /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227773061A8F833000C4D1F6 /* ladybug.jpg */; };
+		227773101A8F833000C4D1F6 /* ladybugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227773071A8F833000C4D1F6 /* ladybugThumb.jpg */; };
+		227773111A8F833000C4D1F6 /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227773081A8F833000C4D1F6 /* potatoBug.jpg */; };
+		227773121A8F833000C4D1F6 /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227773091A8F833000C4D1F6 /* potatoBugThumb.jpg */; };
+		227773131A8F833000C4D1F6 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2277730A1A8F833000C4D1F6 /* wolfSpider.jpg */; };
+		227773141A8F833000C4D1F6 /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2277730B1A8F833000C4D1F6 /* wolfSpiderThumb.jpg */; };
+		227773181A8F9B5400C4D1F6 /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 227773171A8F9B5400C4D1F6 /* RateView.m */; };
+		2277731C1A8F9B8900C4D1F6 /* RWTUIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277731B1A8F9B8900C4D1F6 /* RWTUIImageExtras.m */; };
+		227773211A8F9C3700C4D1F6 /* shockedface2_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 2277731E1A8F9C3700C4D1F6 /* shockedface2_empty.png */; };
+		227773221A8F9C3700C4D1F6 /* shockedface2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 2277731F1A8F9C3700C4D1F6 /* shockedface2_full.png */; };
+		227773231A8F9C3700C4D1F6 /* shockedface2_half.png in Resources */ = {isa = PBXBuildFile; fileRef = 227773201A8F9C3700C4D1F6 /* shockedface2_half.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +55,30 @@
 		227772DB1A8E6EEC00C4D1F6 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		227772DE1A8E6EEC00C4D1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		227772E01A8E6EEC00C4D1F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		227772E31A8E6EEC00C4D1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		227772E91A8E6EEC00C4D1F6 /* ScaryBugsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaryBugsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		227772EE1A8E6EEC00C4D1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		227772EF1A8E6EEC00C4D1F6 /* ScaryBugsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaryBugsTests.m; sourceTree = "<group>"; };
+		227772FA1A8E72EE00C4D1F6 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		227772FD1A8E736A00C4D1F6 /* ScaryBugData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugData.h; sourceTree = "<group>"; };
+		227772FE1A8E736A00C4D1F6 /* ScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugData.m; sourceTree = "<group>"; };
+		227773001A8E82A000C4D1F6 /* ScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugDoc.h; sourceTree = "<group>"; };
+		227773011A8E82A000C4D1F6 /* ScaryBugDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugDoc.m; sourceTree = "<group>"; };
+		227773031A8F833000C4D1F6 /* attribution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = attribution.txt; sourceTree = "<group>"; };
+		227773041A8F833000C4D1F6 /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
+		227773051A8F833000C4D1F6 /* centipedeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipedeThumb.jpg; sourceTree = "<group>"; };
+		227773061A8F833000C4D1F6 /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybug.jpg; sourceTree = "<group>"; };
+		227773071A8F833000C4D1F6 /* ladybugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybugThumb.jpg; sourceTree = "<group>"; };
+		227773081A8F833000C4D1F6 /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBug.jpg; sourceTree = "<group>"; };
+		227773091A8F833000C4D1F6 /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
+		2277730A1A8F833000C4D1F6 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
+		2277730B1A8F833000C4D1F6 /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
+		227773161A8F9B5400C4D1F6 /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateView.h; sourceTree = "<group>"; };
+		227773171A8F9B5400C4D1F6 /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateView.m; sourceTree = "<group>"; };
+		2277731A1A8F9B8900C4D1F6 /* RWTUIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTUIImageExtras.h; sourceTree = "<group>"; };
+		2277731B1A8F9B8900C4D1F6 /* RWTUIImageExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTUIImageExtras.m; sourceTree = "<group>"; };
+		2277731E1A8F9C3700C4D1F6 /* shockedface2_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_empty.png; sourceTree = "<group>"; };
+		2277731F1A8F9C3700C4D1F6 /* shockedface2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_full.png; sourceTree = "<group>"; };
+		227773201A8F9C3700C4D1F6 /* shockedface2_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_half.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,15 +120,12 @@
 		227772CF1A8E6EEC00C4D1F6 /* ScaryBugs */ = {
 			isa = PBXGroup;
 			children = (
-				227772D41A8E6EEC00C4D1F6 /* AppDelegate.h */,
-				227772D51A8E6EEC00C4D1F6 /* AppDelegate.m */,
-				227772D71A8E6EEC00C4D1F6 /* MasterViewController.h */,
-				227772D81A8E6EEC00C4D1F6 /* MasterViewController.m */,
-				227772DA1A8E6EEC00C4D1F6 /* DetailViewController.h */,
-				227772DB1A8E6EEC00C4D1F6 /* DetailViewController.m */,
-				227772DD1A8E6EEC00C4D1F6 /* Main.storyboard */,
+				2277731D1A8F9C2000C4D1F6 /* Art */,
+				227773191A8F9B7400C4D1F6 /* Helpers */,
+				227773151A8F9B4200C4D1F6 /* View */,
+				227772FC1A8E730300C4D1F6 /* Model */,
+				227772F91A8E728F00C4D1F6 /* GUI */,
 				227772E01A8E6EEC00C4D1F6 /* Images.xcassets */,
-				227772E21A8E6EEC00C4D1F6 /* LaunchScreen.xib */,
 				227772D01A8E6EEC00C4D1F6 /* Supporting Files */,
 			);
 			path = ScaryBugs;
@@ -101,6 +134,15 @@
 		227772D01A8E6EEC00C4D1F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				227773031A8F833000C4D1F6 /* attribution.txt */,
+				227773041A8F833000C4D1F6 /* centipede.jpg */,
+				227773051A8F833000C4D1F6 /* centipedeThumb.jpg */,
+				227773061A8F833000C4D1F6 /* ladybug.jpg */,
+				227773071A8F833000C4D1F6 /* ladybugThumb.jpg */,
+				227773081A8F833000C4D1F6 /* potatoBug.jpg */,
+				227773091A8F833000C4D1F6 /* potatoBugThumb.jpg */,
+				2277730A1A8F833000C4D1F6 /* wolfSpider.jpg */,
+				2277730B1A8F833000C4D1F6 /* wolfSpiderThumb.jpg */,
 				227772D11A8E6EEC00C4D1F6 /* Info.plist */,
 				227772D21A8E6EEC00C4D1F6 /* main.m */,
 			);
@@ -122,6 +164,60 @@
 				227772EE1A8E6EEC00C4D1F6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		227772F91A8E728F00C4D1F6 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				227772FA1A8E72EE00C4D1F6 /* LaunchScreen.xib */,
+				227772D41A8E6EEC00C4D1F6 /* AppDelegate.h */,
+				227772D51A8E6EEC00C4D1F6 /* AppDelegate.m */,
+				227772D71A8E6EEC00C4D1F6 /* MasterViewController.h */,
+				227772D81A8E6EEC00C4D1F6 /* MasterViewController.m */,
+				227772DA1A8E6EEC00C4D1F6 /* DetailViewController.h */,
+				227772DB1A8E6EEC00C4D1F6 /* DetailViewController.m */,
+				227772DD1A8E6EEC00C4D1F6 /* Main.storyboard */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		227772FC1A8E730300C4D1F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				227772FD1A8E736A00C4D1F6 /* ScaryBugData.h */,
+				227772FE1A8E736A00C4D1F6 /* ScaryBugData.m */,
+				227773001A8E82A000C4D1F6 /* ScaryBugDoc.h */,
+				227773011A8E82A000C4D1F6 /* ScaryBugDoc.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		227773151A8F9B4200C4D1F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				227773161A8F9B5400C4D1F6 /* RateView.h */,
+				227773171A8F9B5400C4D1F6 /* RateView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		227773191A8F9B7400C4D1F6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2277731A1A8F9B8900C4D1F6 /* RWTUIImageExtras.h */,
+				2277731B1A8F9B8900C4D1F6 /* RWTUIImageExtras.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		2277731D1A8F9C2000C4D1F6 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				2277731E1A8F9C3700C4D1F6 /* shockedface2_empty.png */,
+				2277731F1A8F9C3700C4D1F6 /* shockedface2_full.png */,
+				227773201A8F9C3700C4D1F6 /* shockedface2_half.png */,
+			);
+			name = Art;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,8 +301,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				227772DF1A8E6EEC00C4D1F6 /* Main.storyboard in Resources */,
-				227772E41A8E6EEC00C4D1F6 /* LaunchScreen.xib in Resources */,
+				227773141A8F833000C4D1F6 /* wolfSpiderThumb.jpg in Resources */,
+				2277730F1A8F833000C4D1F6 /* ladybug.jpg in Resources */,
+				227772FB1A8E72EE00C4D1F6 /* LaunchScreen.xib in Resources */,
+				2277730D1A8F833000C4D1F6 /* centipede.jpg in Resources */,
+				2277730C1A8F833000C4D1F6 /* attribution.txt in Resources */,
+				227773131A8F833000C4D1F6 /* wolfSpider.jpg in Resources */,
+				2277730E1A8F833000C4D1F6 /* centipedeThumb.jpg in Resources */,
 				227772E11A8E6EEC00C4D1F6 /* Images.xcassets in Resources */,
+				227773101A8F833000C4D1F6 /* ladybugThumb.jpg in Resources */,
+				227773121A8F833000C4D1F6 /* potatoBugThumb.jpg in Resources */,
+				227773111A8F833000C4D1F6 /* potatoBug.jpg in Resources */,
+				227773221A8F9C3700C4D1F6 /* shockedface2_full.png in Resources */,
+				227773211A8F9C3700C4D1F6 /* shockedface2_empty.png in Resources */,
+				227773231A8F9C3700C4D1F6 /* shockedface2_half.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,9 +332,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227772FF1A8E736A00C4D1F6 /* ScaryBugData.m in Sources */,
+				227773181A8F9B5400C4D1F6 /* RateView.m in Sources */,
+				2277731C1A8F9B8900C4D1F6 /* RWTUIImageExtras.m in Sources */,
 				227772D61A8E6EEC00C4D1F6 /* AppDelegate.m in Sources */,
 				227772D91A8E6EEC00C4D1F6 /* MasterViewController.m in Sources */,
 				227772D31A8E6EEC00C4D1F6 /* main.m in Sources */,
+				227773021A8E82A000C4D1F6 /* ScaryBugDoc.m in Sources */,
 				227772DC1A8E6EEC00C4D1F6 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,14 +368,6 @@
 				227772DE1A8E6EEC00C4D1F6 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		227772E21A8E6EEC00C4D1F6 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				227772E31A8E6EEC00C4D1F6 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

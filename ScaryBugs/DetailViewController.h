@@ -7,11 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RateView.h"
 
-@interface DetailViewController : UIViewController
+@class ScaryBugDoc;
 
-@property (strong, nonatomic) id detailItem;
+@interface DetailViewController : UIViewController <UITextFieldDelegate, RWTRateViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+
+@property (strong, nonatomic) ScaryBugDoc *detailItem;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+
+@property (weak, nonatomic) IBOutlet UITextField *titleField;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet RateView *rateView;
+@property (strong, nonatomic) UIImagePickerController *picker;
+
+
+- (IBAction)titleFieldTextChanged:(id)sender;
+- (IBAction)addPictureTapped:(id)sender;
 
 @end
 
